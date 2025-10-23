@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daftar Member</title>
+    <style>
+        body { font-family: 'Times New Roman', Times, serif, sans-serif; margin: 40px; background: #f7f7f7; }
+        h1 { color: #0e0000; }
+        form { font-size: 20px; }
+        a { color: #130005; }
+        nav table{background: #fa7294;}
+        th, td { padding: 12px; border: 1px solid #180101; text-align: center; }
+        </style>
+</head>
+<body>
+  <!-- Navigasi -->
+    <nav>
+        <table border="2" cellpadding="15" width="100%">
+            <tr>
+                <td><a href="halamanutama.html">Home</a></td>
+                <td><a href="jadwal.html">Jadwal</a></td>
+                <td><a href="program.html">Program</a></td>
+                <td><a href="daftar.html">Daftar Member</a></td>
+            </tr>
+        </table>
+  <hr>
+
+  <h1>📝 FORM PENDAFTARAN MEMBER</h1>
+  <form>
+    Nama: <input type="text" name="nama"><br><br>
+    Umur: <input type="number" name="umur"><br><br>
+    Nomor HP: <input type="text" name="hp"><br><br>
+    Tujuan: 
+    <select name="tujuan">
+      <option>Bulking</option>
+      <option>Cutting</option>
+      <option>Fit & Healthy</option>
+    </select><br><br>
+    <input type="submit" value="Daftar">
+  </form>
+</body>
+</html>
